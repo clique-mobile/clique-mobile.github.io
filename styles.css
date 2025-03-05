@@ -1,0 +1,81 @@
+/* styles.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  animation: fadeIn 2s ease-in-out;
+}
+
+header h1 {
+  font-size: 3rem;
+  animation: slideIn 1s ease-out;
+}
+
+header p {
+  font-size: 1.2rem;
+  animation: slideIn 1.5s ease-out;
+}
+
+form {
+  margin-top: 20px;
+  animation: slideIn 2s ease-out;
+}
+
+input[type="email"] {
+  padding: 10px;
+  width: 300px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff6f61;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff3b2f;
+}
+
+.success-message {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

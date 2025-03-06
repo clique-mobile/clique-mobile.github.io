@@ -3,20 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your App Name</title>
+  <title>Clique Waitlist</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
 </head>
 <body>
   <div class="container">
     <header>
+      <img src="Asset 1@4x-8.png" alt="Your App Logo" style="width: 200px; height: auto;">
       <h1>Welcome to Clique</h1>
       <p>Turn a crowd into connections.</p>
     </header>
     <main>
-      <form id="waitlist-form">
-        <input type="email" id="email" name="email" placeholder="Enter your email" required>
-        <button type="submit">Join the Waitlist</button>
-      </form>
+<form
+action="https://formspree.io/f/mzzepzqq"
+method="POST"
+>
+  <input type="email" name="email" placeholder="Enter your email" required>
+<button type="submit" >Join the waitlist!</button>
+</form>
       <p class="success-message" id="success-message" style="display: none;">Thank you! You've been added to the waitlist.</p>
     </main>
   </div>

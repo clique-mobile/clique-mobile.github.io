@@ -9,6 +9,20 @@ body {
   height: 100vh;
   margin: 0;
 }
+
+.back-to-home {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #ff6f61;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
 .container {
   text-align: center;
   animation: fadeIn 2s ease-in-out;
